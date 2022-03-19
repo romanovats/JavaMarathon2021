@@ -13,7 +13,7 @@ public class Teacher {
 
     public void evaluate(Student student) {
         Random rnd = new Random();
-        int markNum = rnd.nextInt(5);
+        int markNum = rnd.nextInt(3) + 2;
         String mark;
 
         if (markNum == 5) {

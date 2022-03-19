@@ -1,4 +1,4 @@
-package day6;
+package day8;
 
 public class Airplane {
     private String producer;
@@ -20,7 +20,7 @@ public class Airplane {
         this.fuel = fuel;
     }
 
-    public  Airplane (String producer, int year, int weight, int length, int fuel) {
+    public Airplane(String producer, int year, int weight, int length, int fuel) {
         this.producer = producer;
         this.year = year;
         this.weight = weight;
@@ -34,5 +34,10 @@ public class Airplane {
 
     public void fillUp(int fuel){
         this.fuel = fuel;
+    }
+
+    @Override
+    public String toString() {
+        return "Изготовитель: " + producer + ", год выпуска: " + year + ", длина: " + length + ", вес: " + weight + ", количество топлива в баке: " + fuel;
     }
 }

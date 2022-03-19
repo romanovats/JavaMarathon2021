@@ -12,5 +12,12 @@ public class Task2 {
         air.fillUp(699);
         System.out.print("Информация измененного объекта: ");
         air.info();
+        air.fillUp(809);
+        System.out.print("Информация измененного объекта: ");
+        air.info();
+
+
+
+
     }
 }

@@ -5,5 +5,6 @@ public class Task3 {
         Student student1 = new Student("Дмитрий Лиханов");
         Teacher teacher1 = new Teacher("Татьяна Романова", "погромирование");
         teacher1.evaluate(student1);
+
     }
 }
